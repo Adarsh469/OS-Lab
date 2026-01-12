@@ -1,0 +1,9 @@
+apple
+apples
+pineapple
+fruit-apple
+banana
+pear
+peach
+orange
+1234

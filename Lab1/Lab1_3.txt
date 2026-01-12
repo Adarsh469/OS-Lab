@@ -1,0 +1,34 @@
+$date
+$echo "Question from lab manual as it is"
+cat >newfile.txt
+cat >>test.txt
+head -n 3 test.txt
+head -c 3 test.txt
+tail -n 3 test.txt
+tail -c 3 test.txt
+cp -n test.txt test2.txt
+cp -i test.txt test2.txt
+cp -f test.txt test2.txt
+mkdir test
+mv test /home/mca/240962518
+ls
+cd ..
+touch test.txt
+cd Lab1
+mv -f test.txt /home/mca/240962518/test.txt
+touch test.txt
+mv -i test.txt /home/mca/240962518/test.txt
+touch newtest.txt
+cd..
+mkdir test
+cd Lab1
+mv newtest.txt /home/mca/240962518/test
+touch filetodelete.txt
+rm -r filetodelete.txt
+touch filetodelete.txt
+rm -f filetodelete.txt
+touch filetodelete.txt
+rm -i filetodelete.txt
+touch filetofind.txt
+file . -name "filetofind.txt" 
+file . -type f -name "*.txt" 

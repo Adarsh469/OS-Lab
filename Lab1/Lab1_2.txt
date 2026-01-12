@@ -1,0 +1,12 @@
+$date
+$echo "Question from lab manual as it is"
+mkdir test
+cd test
+cd ..
+touch test.txt
+pwd
+cat test.txt
+file test.txt
+rmdir test/
+
+
